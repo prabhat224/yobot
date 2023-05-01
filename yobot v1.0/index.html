@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat GPT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9d77dc71b2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body >
+
+<div class="container">
+    <div class="particle-js" id="particles-js">
+    </div> 
+    <div class="primary">
+        <div class="history" id="history">
+            <i class="ri-close-line ham" id="cross"></i>
+            <div class="clear"><button class="btn" id="btn">Clear</button></div>
+        </div>
+
+        <div class="main"  id="main">
+            <i class="ri-menu-line ham" id="ham"></i>
+            <div class="content">
+            <h2>YoBot</h2>
+            <h2>YoBot</h2>
+
+            </div>
+            <div class="image" ><img src="./images/robot.png" id="image" alt=""></div>
+            <div class="prev">
+                <div class="output">
+                    <ul class="ulStyle">
+                        <li id="output" class="reset" >Hi how may I help you?</li>
+                    </ul>
+                </div>
+            </div>           
+            <div  class="search">
+                <div class="searchBar"><input class="input" placeholder="Ask anything..."  onfocus="mainbg()" id="input"  /><i class="ri-send-plane-2-fill" id="go"></i></div>
+            </div>
+          </div> 
+    </div>      
+    
+</div>
+<script src="particlejs/particle.js"></script>
+<script src="particlejs/app.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
